@@ -1,0 +1,7 @@
+{
+  "training_motors": 9,
+  "test_motors": 3,
+  "model_log10_mae": 0.4240758285964968,
+  "training_median_log10_mae": 0.44391325031198403,
+  "note": "Small synthetic dataset; metrics are exploratory, not evidence of hardware performance."
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "dataset/pid_dataset_5s.csv",
+  "simulation_duration_seconds": 5.0,
+  "total_motors": 20,
+  "training_motors": 15,
+  "test_motors": 5,
+  "model_log10_mae": 0.5908835194693555,
+  "training_median_log10_mae": 0.6751071538731276,
+  "per_gain_mae": {
+    "Kp": {
+      "model": 0.24959864698949516,
+      "median_baseline": 0.31814811832507783
+    },
+    "Ki": {
+      "model": 3.6870522618313273,
+      "median_baseline": 3.997060644248333
+    },
+    "Kd": {
+      "model": 0.008591007220328607,
+      "median_baseline": 0.00872475998085532
+    }
+  },
+  "note": "Exploratory metrics on five held-out synthetic motors; not evidence of hardware performance."
+}

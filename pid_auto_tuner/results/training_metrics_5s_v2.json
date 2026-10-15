@@ -1,0 +1,51 @@
+{
+  "dataset": "dataset/pid_dataset_5s_v2.csv",
+  "simulation_duration_seconds": 5.0,
+  "total_labelled_motors": 99,
+  "training_motors": 74,
+  "test_motors": 25,
+  "test_motor_ids": [
+    62,
+    40,
+    96,
+    18,
+    98,
+    85,
+    64,
+    42,
+    10,
+    0,
+    31,
+    77,
+    47,
+    26,
+    44,
+    4,
+    22,
+    12,
+    89,
+    74,
+    49,
+    71,
+    68,
+    15,
+    39
+  ],
+  "model_log10_mae": 0.5287791646870713,
+  "training_median_log10_mae": 0.6172419791399112,
+  "per_gain": {
+    "Kp": {
+      "model_log10_mae": 0.1824054915561701,
+      "baseline_log10_mae": 0.39129483420471134
+    },
+    "Ki": {
+      "model_log10_mae": 0.29542826149596485,
+      "baseline_log10_mae": 0.5526844546226205
+    },
+    "Kd": {
+      "model_log10_mae": 1.108503741009079,
+      "baseline_log10_mae": 0.9077466485924013
+    }
+  },
+  "note": "Exploratory metrics on held-out synthetic motors. Gain prediction accuracy does not guarantee valid closed-loop control."
+}
