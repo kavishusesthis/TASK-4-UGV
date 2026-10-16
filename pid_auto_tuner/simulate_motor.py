@@ -111,7 +111,7 @@ def calculate_metrics(time, speed, current, voltage, target_speed, current_limit
     settling_time = 0.0 if len(outside) == 0 else (float(time[outside[-1] + 1]) if outside[-1] + 1 < len(time) else float("inf"))
     peak_current = float(np.max(np.abs(current)))
     peak_voltage = float(np.max(np.abs(voltage)))
-    integrate = getattr(np, "trapezoid", np.trapz)
+    integrate = np.trapezoid if hasattr(np, "trapezoid") else np.trapz
     iae = float(integrate(np.abs(target_speed - speed), time))
     valid = (overshoot_pct <= 20.0 and final_error_pct <= 2.0 and
              peak_current <= current_limit + 1e-9 and peak_voltage <= voltage_limit + 1e-9)
