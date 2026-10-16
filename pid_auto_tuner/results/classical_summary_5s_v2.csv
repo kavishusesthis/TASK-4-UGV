@@ -1,0 +1,3 @@
+method,motors,valid,mean_score_all,valid_rate_pct,mean_score_valid_only
+IMC PI,25,16,39.390245524942486,64.0,0.3287687581613076
+Ziegler-Nichols,25,19,26.965647362525857,76.0,0.22798975129079585
