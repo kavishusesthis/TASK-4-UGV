@@ -23,3 +23,12 @@ and discuss the overall approach.
 9. Compared ML-based predictions and search methods with other PID tuning approaches.
 
 10. Ran automated tests and performed additional analysis to check the implementation and evaluate the results.
+
+Results 
+Method	Valid rate on 25 held-out motors
+Direct ML prediction	92% (23/25)
+ML-assisted local search	96% (24/25)
+Random search	100% (25/25)
+Ziegler–Nichols	76% (19/25)
+IMC PI	64% (16/25)
+
