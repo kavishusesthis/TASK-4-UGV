@@ -1,14 +1,25 @@
-TASK-4-UGV
-TASK 4 by sub-team 1
+Task 4- Sub-Team 1
 
-created whatsapp group for the task
-held a team discussion meet at 9pm dicussing the overview of the task
-simulated motors in python
-tested differnt PID combintions
-decided wether the controller is acceptable pr not
-created datasheet
-trained ML model
-evaluated model on unseen models
-compared tuning approaches with prediction
-automated tests and extra analysis
+Work Completed
 
+1. Created a WhatsApp group for team communication and coordination.
+
+2. Held a team discussion meeting at 9 PM to understand the task requirements
+
+and discuss the overall approach.
+
+3. Simulated different motors using Python.
+
+4. Tested different combinations of PID parameters (Kp, Ki and Kd).
+
+5. Evaluated the controller's performance and decided whether it met the required conditions.
+
+6. Generated a dataset containing motor characteristics, tested PID combinations and performance results.
+
+7. Trained a Machine Learning model to predict suitable PID parameters for a motor.
+
+8. Evaluated the trained model on unseen motors.
+
+9. Compared ML-based predictions and search methods with other PID tuning approaches.
+
+10. Ran automated tests and performed additional analysis to check the implementation and evaluate the results.
